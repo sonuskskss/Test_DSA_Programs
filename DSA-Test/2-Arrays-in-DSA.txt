@@ -1,0 +1,149 @@
+1) Love babar
+
+
+*Array:- Arrays is collection of similar elements. Array elements are store in countiguies memory location. Size of static array is fixed, we can not change the size at run-time. Memory allocated for an array at run-time. We can store multiple values in a single variable with the help of array. Array index start with 0 index. we can access the values of an array with the help of index.
+Ritrival is very fast in array.
+
+
+*How to Decelare:
+
+int array[5]; //if we dont initialized an array then garbage value are store by default.
+
+Decelare and initialized both:
+
+int array[5] = {0}// initilizing all location with 0 valuea.
+
+int array[5] = {1,11,4,5,6}// the variable "array" is store the address of the first(0) index(base address of array). arry[1] = address_of Zero(0)th location +(1*4).
+
+and 
+int array[] = {3,5,3,33}   //if you want to initialized to hole array with any value at the time of creation then:- fill_n(array, 5, -19);
+
+
+Some changes in array
+
+cout<<array[10000];// print the value of beyound the range
+
+int array[100] = {22,55};//we can do this things.
+                         //if we create large size of array and initilized only some value then Remaining  all position of array initilized with 0 bydefault.
+
+(Try this things:- if we decelare an array with 100 size, after that we initilized only first index. then check other remaining position are bydefault 0 or garbage value?? check that.
+
+Traversal of array: visit all index of an array is called traversal of array.
+
+*why we do traversal:- for printing  the array, for searching the array, for sorting the array ect.
+
+for(int i =0; i<5; i++){
+cout<<array[i];}
+
+
+
+Size of array:- How many elements are present in array.
+Size of array(length) = int size = sizeof(array, array[0]);
+
+Capacity of array:- Maximum number of elements that we can able to store in array.
+
+
+
+int arrayFunction(int array[], int size){}// we can pass the array in function.
+or
+int arrayFunction( int array[11], int size{}//we can do this.
+
+*****(Question)nFind maximum and minimum element in array:-
+
+
+(This is for maximum number finding)
+int maximum =INT_MIN;
+
+for(int i=0; i<n; i++){
+
+if(array[i] > maximum){
+maximum = array[i];
+
+and
+
+maximum = max(maximum, array[i]);//built in function
+.................................................
+
+
+
+If we pass array in function and update the value of array inside the function then original value of array are changed.Because, when we pass tha array it means we pass the base address of array. so changes are parmanentaly done hole of programe.
+
+
+
+***************************************LOVE Babbar*********************************
+1. Maximum and minimum  element of an array.// use in searching programe.
+*2. Reverse an array.
+*3. Swap alternate element.
+4. Find unique element. // use in searching programe.
+5. Find Duplicates element. // use in searching programe.
+*6. Array Intersection. // use in two array  programe.
+*7. Pair of sum.
+*8. Triplets of sum.
+9. Sort 0 and 1. // use in sorting programe.
+*10. Merge two sorted array. //use in two array  programe.
+11. Move zeros(0). // use in sorting program
+12. Rotate an array. // use in sorting program.
+13. Check if Sorted and rotated array? // use in sorting program.
+14. Add two arrays. //use in two array program.
+
+
+******2-D Arrays Question*********************************LOVE Babbar*********************************
+1. Linear Search in 2-D Array. //use in Searching programe.
+2. Row-Wise sum in 2-D array 
+
+
+
+
+
+
+
+
+
+***************************************LOVE Babbar*********************************
+
+
+*1****(Question)Print the sum of all element present an array.
+2***(Question)Linear search.
+*3****(Question)Reverse the array
+*4***Swap of alternate number of an array
+5***Find the unique element in an array
+6***Find the duplicate element in an array
+7***Binary search algorithms
+8***Find intersection of two array
+*9***Find pair of sum an array
+*10***Find triplets of sum an array
+11***Sort 0 and 1 in given array
+12***(Question)Merge two sorted array in third array
+13***(Qusetion)Move zeros
+
+
+**Calculate Address of array:-
+
+Address = Base address + (Size of data type * index)
+
+
+**How to calculate address of element in 2-D array:-
+
+M= no.of columns(4),
+N= no.of rows(3),
+W= size of integer(depend on the complier it may be 2 or 4 bytes, supose 4 bytes in this case,
+i= 1,
+j= 2,
+Supose Base address = 100,
+
+Location(Array[i,j] = Base address + W*[ (M*i) + j ]
+
+                    = 100 + 4*[ (4*1) + 2 ]
+                    = 100 +4*[4+2]
+                    = 100 + 4*6
+                    = 100 + 24
+                    = 1024 ans->
+
+
+
+
+
+
+
+
+.

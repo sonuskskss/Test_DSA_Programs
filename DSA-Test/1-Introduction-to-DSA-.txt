@@ -1,0 +1,108 @@
+Data: Data are the raw facts, unorganized facts that need to be processed. Data can be simple, complex, random and useless until it is organized.
+
+Information: When data is processed, organized, structured or presented in a given context so as to make it useful, it is called information.
+
+Programe: An implementation of algorithms in some programming language.
+
+
+
+
+
+1.) Data Structures:- Data structures is a way to arrange data in main memory for efficient usages.
+
+Example:-
+-> Arrays
+-> Linked lists
+-> Stacks
+-> Queues
+-> Trees
+-> Graphs
+-> Heaps
+-> Hash Tables
+-> Trie
+
+
+
+
+2.) Algorithms:- Algorithms is logic to solve a given problem in step by step.
+
+Example:-
+-> Sorting Algorithms
+-> Searching Algorithms
+-> Recursion
+-> Dynamic Programming
+-> Greedy Algorithms
+-> Divide and Conquer
+-> Backtracking
+-> Graph Algorithms
+-> Tree Algorithms
+-> String Algorithms
+-> Bit Manipulation
+
+
+*Claffication of Data Structures: 
+
+Linear Data Structures:- - Elements are arranged n a sequential order, Where each element has a unique predecessore and successor. Traversal is straightforward, moving through the elements in a linear fashion. Like:- Array, LinkedList,  Stack, Queue etc.
+
+Linear Data Structure are also divide into two part:
+
+*Static Data Structure: The size of data structure is fixed at the time of creation and cannot be changed during the program's execution. Memory allocation is done ata compile time. Like:0        Static Array etc.
+
+*Dynamic Data Structure: The size of the data structure can change during the program's execution. Memory is allocated and deallocated at run-time as needed. Like:- Dynamic Array, LinkedList, Trees etc.
+
+
+
+Non-Linear Data Structures:- Elements are not organized in a sequential order. Instead, they may have multiple predecessors and successors. traversal may involves multiple path. Like: 
+tree, Graph etc.
+
+
+
+
+
+
+
+
+
+
+
+Note:-
+Heap memory is used for dynamic memory allocation using pointer.
+if we allocate memory in stack then memory is allocated untill the function is returned(we can not able to deallocate the memory inside the function in stack). it means when function is return then only memory is deallocated. But, if we allocate memory dynamicaly in heap then we can allocate(request) and deallocate memory any time inside the function.
+
+
+
+
+
+Stack Overflow:-
+
+
+Memory leek:-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
